@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "761188971682",
+    "project_id": "fierbasedemo-d6dc4",
+    "storage_bucket": "fierbasedemo-d6dc4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:761188971682:android:ebf6aa1d40b17a9531d3fb",
+        "android_client_info": {
+          "package_name": "com.example.firebase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAIo4Oi6wbm6vLCXnL0DSEqkFE3P-XglTk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
