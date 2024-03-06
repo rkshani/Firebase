@@ -15,4 +15,5 @@
     <string name="new_password">New Password</string>
     <string name="forgot_password">Forgot Password</string>
     <string name="go_to_register">Go to Register</string>
+    <string name="default_web_client_id">761188971682-tutov345o3gpfobm3t8hniba2jdhqe1u.apps.googleusercontent.com</string>
 </resources>
