@@ -13,21 +13,25 @@
         android:theme="@style/Theme.Firebase"
         tools:targetApi="31">
         <activity
-            android:name=".Android.TextViews.SpannableTextViews"
-            android:exported="false" />
-
-        <activity
-            android:name=".RecyclerView.RecyclerView"
-            android:exported="true" >
+            android:name=".book.Book"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity
+            android:name=".Android.TextViews.SpannableTextViews"
+            android:exported="false" />
+
+        <activity
+            android:name=".RecyclerView.RecyclerView"
+            android:exported="false"/>
         <activity
             android:name=".ViewModel.LiveData"
-            android:exported="false"/>
+            android:exported="false" />
         <activity
             android:name=".Retrofit.DemoApiCall"
             android:exported="false" />

@@ -9,7 +9,7 @@ import com.example.firebase.R
 
 
 class RecyclerView : AppCompatActivity() {
-    val fruits = listOf("Apple","Banana","Orange","Mango","Peach","Strawberry" )
+    private val fruits = listOf("Apple","Banana","Orange","Mango","Peach","Strawberry" )
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_recycler_view)
@@ -18,5 +18,6 @@ class RecyclerView : AppCompatActivity() {
         recyclerView.setBackgroundColor(Color.YELLOW)
         recyclerView.layoutManager = LinearLayoutManager(this)
         recyclerView.adapter = RecyclerviewAdapter(fruits)
+
     }
 }

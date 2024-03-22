@@ -52,11 +52,18 @@ dependencies {
     // OkHttp Logging Interceptor
     implementation ("com.squareup.okhttp3:logging-interceptor:4.9.0")
 
+
     // ViewModel And Live Data
     implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0")
     implementation("androidx.lifecycle:lifecycle-livedata-ktx:2.7.0")
     implementation("com.google.android.gms:play-services-auth:21.0.0")
     implementation("androidx.activity:activity:1.8.0")
+
+//    Pdf Viewer
+    implementation ("com.github.afreakyelf:Pdf-Viewer:v{Tag}")
+
+
+
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
