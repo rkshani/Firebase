@@ -31,6 +31,7 @@ android {
         sourceCompatibility = JavaVersion.VERSION_1_8
         targetCompatibility = JavaVersion.VERSION_1_8
     }
+
     kotlinOptions {
         jvmTarget = "1.8"
     }
@@ -60,8 +61,9 @@ dependencies {
     implementation("androidx.activity:activity:1.8.0")
 
 //    Pdf Viewer
-    implementation ("com.github.afreakyelf:Pdf-Viewer:v{Tag}")
 
+    
+    implementation ("com.github.barteksc:android-pdf-viewer:2.8.2")
 
 
     testImplementation("junit:junit:4.13.2")
